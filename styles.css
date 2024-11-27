@@ -7,8 +7,8 @@ body, h1, h3, p {
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #1a1a1a, #4d4d4d);
-    color: #ffffff;
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    color: #333333;
     padding: 20px;
 }
 
@@ -26,7 +26,7 @@ header {
 
 h1 {
     font-size: 3em;
-    color: #ffcc00;
+    color: #0078d7;
     margin-bottom: 10px;
 }
 
@@ -37,21 +37,22 @@ h1 {
 
 input[type="text"] {
     padding: 10px;
-    border: none;
+    border: 1px solid #cccccc;
     border-radius: 5px;
     width: 300px;
     transition: 0.3s;
+    background-color: #ffffff;
 }
 
 input[type="text"]:focus {
     outline: none;
-    box-shadow: 0 0 5px #ffcc00;
+    box-shadow: 0 0 5px #0078d7;
 }
 
 button {
     padding: 10px 15px;
-    background-color: #ffcc00;
-    color: #1a1a1a;
+    background-color: #0078d7;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -59,7 +60,7 @@ button {
 }
 
 button:hover {
-    background-color: #e6b800;
+    background-color: #005ea8;
 }
 
 /* Results container */
@@ -71,11 +72,11 @@ button:hover {
 }
 
 .movie-card {
-    background-color: #333333;
+    background-color: #ffffff;
     border-radius: 10px;
     overflow: hidden;
     width: 200px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
 
@@ -90,10 +91,11 @@ button:hover {
 .movie-card h3 {
     font-size: 1.2em;
     margin: 10px 0;
+    color: #333333;
 }
 
 .movie-card p {
     padding: 0 10px 10px;
     font-size: 0.9em;
-    color: #cccccc;
+    color: #666666;
 }
